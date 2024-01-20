@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 207, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+
+}
+section{
+    max-height: 600px;
+    background-color: white;
+    max-width:450px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    box-shadow: 20px 20px black;
+    border-radius: 24px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+
+}
+.image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 16px;
+    bottom: 50px;
+    left: 20px;
+}
+.Learning{
+    border: none;
+    background-color: rgb(245, 207, 84);
+    font-weight: 800;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    padding: 15px;
+    width: 105px;
+    height: 45px;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+
+}
+.Publish{
+    position: relative;
+    top: -15px;
+    left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.Heading{
+    border: none;
+    background-color: transparent;
+    color: rgb(245, 207, 84);
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    display: flex;
+
+}
+.desc{
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    position: relative;
+    top: 35px;
+    
+}
+.avatar{
+    width: 40px;
+    position: relative;
+    top: 55px;
+    left: 24px;
+
+}
+.name{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    font-weight: 600;
+}
